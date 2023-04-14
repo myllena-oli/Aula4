@@ -1,0 +1,192 @@
+1. Faça um algoritmo que leia os valores X, Y, Z e imprima na tela se a soma de X + Y é menor que Z.
+
+Inicio Algoritmo {
+
+	imprimir("Digite o X: ");
+        double x = ler();
+        imprimir("Digite o Y: ");
+        double y = ler();
+        imprimir("Digite o Z: ");
+        double z = ler();
+	double soma = x + y;
+
+	if (soma < x){
+		imprimir("A soma de x + y é menor que z.");
+	}
+	else {
+		imprimir("A soma de x + y não é menor que z.");
+	}}
+Final Algoritmo
+
+
+2. Faça um algoritmo que leia o nome, o sexo e o estado civil de uma pessoa. Caso sexo seja “M” e estado civil seja “CASADO”, solicitar o
+tempo de casada (anos).
+
+Inicio Algoritmo {
+
+	imprimir("Digite o nome: ");
+        String nome = ler();
+        imprimir("Digite o sexo M ou F: ");
+        String sexo = ler();
+        imprimir("Digite o estado civil CASADO ou SOLTEIRO: ");
+        String estadoCivil = ler();
+
+	if (sexo == "M" && estadoCivil == "CASADO"){
+		imprimir("Quanto tempo de casamento em anos?");
+		int tempo = ler();
+	}
+Final Algoritmo
+
+3. Faça um algoritmo para receber um número qualquer e informar na tela se é par ou ímpar.
+
+Inicio Algoritmo {
+
+	imprimir("Digite o número: ");
+        double x = ler();
+
+	if (x%2 == 0){
+		imprimir("O número é par");
+	}
+	else {
+		imprimir("O número é ímpar");
+	}}
+Final Algoritmo
+
+4. Faça um algoritmo que leia dois valores inteiros X e Y se os valores forem iguais deverá se somar os dois, caso contrário multiplique X
+por Y. Ao final de qualquer um dos cálculos deve-se atribuir o resultado para uma variável Z e mostrar seu conteúdo na tela.
+
+Inicio Algoritmo {
+
+	imprimir("Digite o X: ");
+        double x = ler();
+        imprimir("Digite o Y: ");
+        double y = ler();
+
+	if (x == y){
+		double z = x + y;
+		imprimir("Os múmeros são iguais e a soma é " + z);
+	}
+	else {
+		double z = x * y;
+		imprimir("Os múmeros são diferentes e a multiplicação é " + z);
+	}}
+Final Algoritmo
+
+5. Encontrar o dobro de um número caso ele seja positivo e o seu triplo caso seja negativo, imprimindo o resultado.
+
+Inicio Algoritmo {
+
+	imprimir("Digite o número: ");
+        double x = ler();
+
+	if (x>0){
+		double dobro = x*2;
+		imprimir("O dobro do número é " + dobro);
+	}
+	else if (x<0) {
+		double triplo = x*3;
+		imprimir("O triplo do número é " + triplo);
+	else {
+		imprimir("O número é 0, portanto é um número neutro. O seu dobro e tripo é 0.");
+		
+	}}
+Final Algoritmo
+
+6. Escreva um algoritmo que lê dois valores booleanos (lógicos) e então determina se ambos são VERDADEIROS ou FALSOS.
+
+Inicio Algoritmo {
+
+	imprimir("Digite true ou false: ");
+        boolean x = ler();
+        imprimir("Digite o segundo true ou false: ");
+        boolean y = ler();
+
+
+	if (x && y){
+		imprimir("Ambos são verdadeios.");
+	}
+	else if (!x && !y){
+		imprimir("Ambos são falsos.");
+	}
+	else {
+		imprimir("Um é verdadeiro e o outro é falso.");
+
+	}}
+Final Algoritmo
+
+7. Faça um algoritmo que leia uma variável e some 5 caso seja par ou some 8 caso seja ímpar, imprimir o resultado desta operação.
+
+Inicio Algoritmo {
+
+	imprimir("Digite o número: ");
+        double x = ler();
+
+	if (x%2 == 0){
+		double soma = x + 5;
+		imprimir("A soma é " + soma);
+	}
+	else {
+		double soma = x + 8;
+		imprimir("A soma é " + soma);
+	}}
+Final Algoritmo
+
+8. Escreva um algoritmo que leia três valores inteiros e diferentes e mostre-os em ordem decrescente.
+
+Inicio Algoritmo {
+
+	imprimir("Digite o X: ");
+        int x = ler();
+        imprimir("Digite o Y: ");
+        int y = ler();
+        imprimir("Digite o Z: ");
+        int z = ler();
+	double soma = x + y;
+
+	if (x > y && x > z){
+		int maior = x;
+		if (y>z){
+			meio = y;
+			menor = z;
+		}
+		else {
+			meio = z;
+			menor = y;
+		}
+	}
+	else if (y > x && y > z){
+		int maior = y;
+		if x>z){
+			meio = x;
+			menor = z;
+		}
+		else {
+			meio = z;
+			menor = x;
+		}
+	}
+	else {
+		int maior = z;
+		if (x>y){
+			meio = x;
+			menor = y;
+		}
+		else {
+			meio = y;
+			menor = x;
+		}
+	}
+	imprimir ("Os números em ordem decrescente são: " + maior ", " + meio "e " + menor ".")
+	}
+Final Algoritmo
+
+
+
+
+
+
+
+
+
+
+
