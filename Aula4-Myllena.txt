@@ -15,7 +15,8 @@ Inicio Algoritmo {
 	}
 	else {
 		imprimir("A soma de x + y não é menor que z.");
-	}}
+	}
+}
 Final Algoritmo
 
 
@@ -35,6 +36,7 @@ Inicio Algoritmo {
 		imprimir("Quanto tempo de casamento em anos?");
 		int tempo = ler();
 	}
+}
 Final Algoritmo
 
 3. Faça um algoritmo para receber um número qualquer e informar na tela se é par ou ímpar.
@@ -49,7 +51,8 @@ Inicio Algoritmo {
 	}
 	else {
 		imprimir("O número é ímpar");
-	}}
+	}
+}
 Final Algoritmo
 
 4. Faça um algoritmo que leia dois valores inteiros X e Y se os valores forem iguais deverá se somar os dois, caso contrário multiplique X
@@ -69,7 +72,8 @@ Inicio Algoritmo {
 	else {
 		double z = x * y;
 		imprimir("Os múmeros são diferentes e a multiplicação é " + z);
-	}}
+	}
+}
 Final Algoritmo
 
 5. Encontrar o dobro de um número caso ele seja positivo e o seu triplo caso seja negativo, imprimindo o resultado.
@@ -89,7 +93,8 @@ Inicio Algoritmo {
 	else {
 		imprimir("O número é 0, portanto é um número neutro. O seu dobro e tripo é 0.");
 		
-	}}
+	}
+}
 Final Algoritmo
 
 6. Escreva um algoritmo que lê dois valores booleanos (lógicos) e então determina se ambos são VERDADEIROS ou FALSOS.
@@ -111,7 +116,8 @@ Inicio Algoritmo {
 	else {
 		imprimir("Um é verdadeiro e o outro é falso.");
 
-	}}
+	}
+}
 Final Algoritmo
 
 7. Faça um algoritmo que leia uma variável e some 5 caso seja par ou some 8 caso seja ímpar, imprimir o resultado desta operação.
@@ -128,7 +134,8 @@ Inicio Algoritmo {
 	else {
 		double soma = x + 8;
 		imprimir("A soma é " + soma);
-	}}
+	}
+}
 Final Algoritmo
 
 8. Escreva um algoritmo que leia três valores inteiros e diferentes e mostre-os em ordem decrescente.
@@ -146,38 +153,38 @@ Inicio Algoritmo {
 	if (x > y && x > z){
 		int maior = x;
 		if (y>z){
-			meio = y;
-			menor = z;
+			int meio = y;
+			int menor = z;
 		}
 		else {
-			meio = z;
-			menor = y;
+			int meio = z;
+			int menor = y;
 		}
 	}
 	else if (y > x && y > z){
 		int maior = y;
-		if x>z){
-			meio = x;
-			menor = z;
+		if (x>z){
+			int meio = x;
+			int menor = z;
 		}
 		else {
-			meio = z;
-			menor = x;
+			int meio = z;
+			int menor = x;
 		}
 	}
 	else {
 		int maior = z;
 		if (x>y){
-			meio = x;
-			menor = y;
+			int meio = x;
+			int menor = y;
 		}
 		else {
-			meio = y;
-			menor = x;
+			int meio = y;
+			int menor = x;
 		}
 	}
 	imprimir ("Os números em ordem decrescente são: " + maior ", " + meio "e " + menor ".")
-	}
+}
 Final Algoritmo
 
 
